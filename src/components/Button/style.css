@@ -1,0 +1,26 @@
+.btn_main {
+  display: flex;
+  align-items: center;
+  border: 0px;
+  outline: 0px;
+  background-color: rgb(223, 247, 255);
+  border: 1px solid rgb(172, 172, 255);
+  color: rgb(172, 172, 255);
+  padding: 10px 12px;
+  border-radius: 7px;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: .4s ease-in;
+}
+
+.btn_main:hover {
+  background-color: rgb(172, 172, 255);
+  border: 1px solid rgb(223, 247, 255);
+  color: rgb(223, 247, 255);
+  transition: .4s ease-out;
+}
+
+.btn_main_loading {
+  width: 20px;
+  margin-right: 10px;
+}
